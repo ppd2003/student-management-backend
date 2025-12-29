@@ -11,6 +11,7 @@ Hibernate
 Swagger / OpenAPI
 Maven
 SLF4J + Logback
+
 ✨ Features
 RESTful APIs for Student management
 Create, Read, Update, Delete (CRUD) operations
@@ -22,7 +23,15 @@ API documentation using Swagger UI
 Structured logging using SLF4J & Logback
 Clean layered architecture
 📂 Project Structure
-src/main/java/com/example/student ├── controller # REST controllers ├── service # Business logic ├── repository # JPA repositories ├── entity # JPA entities ├── dto # Data Transfer Objects ├── exception # Custom exceptions & handlers ├── security # JWT & Spring Security configuration └── config # Application configuration
+src/main/java/com/example/student 
+├── controller # REST controllers 
+├── service # Business logic
+├── repository # JPA repositories 
+├── entity # JPA entities 
+├── dto # Data Transfer Objects 
+├── exception # Custom exceptions & handlers 
+├── security # JWT & Spring Security configuration 
+└── config # Application configuration
 
 📖 API Documentation
 After running the application, access Swagger UI:http://localhost:8080/swagger-ui/index.html POSTMAN API
